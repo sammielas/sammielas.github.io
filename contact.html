@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet"  href="style.css" />
+  <title>Contact US</title>
+  
+  <body>
+  
+    <div id="page-wrap">     
+      <div id="contact-area">
+        
+        <form method="post" action="contactengine.php">
+          <label for="Name" required >Name:</label>
+          <input type="text" id="Name" placeholder="Surname First" required  minlength="4" />
+      
+          <label for="Email">Email:</label>
+          <input type="email" name="Email" id="Email" />
+          
+          <label for="Message">Message:</label><br />
+          <textarea rows="20"
+          cols="20" id="Message" minlength="10" placeholder="Comment here"></textarea>
+  
+          <input type="submit" value="Submit" class="submit-button" />
+        </form>
+        
+        <div style="clear: both;"></div>
+      
+      
+      </div>
+    
+    </div>
+  
+  </body>
+  
+</html>
